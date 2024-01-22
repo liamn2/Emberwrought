@@ -34,3 +34,25 @@ print("x_train shape:", x_train.shape)
 print("y_train shape:", y_train.shape)
 print(x_train.shape[0], "train samples")
 print(x_test.shape[0], "test samples")
+
+# Now that we have our data set, we now setup our convnet model. Here we are using the Sequential model in Keras. 
+
+# Model parameters
+num_classes = 10
+input_shape = (28, 28, 1)
+
+model = keras.Sequential(
+    [
+        keras.layers.Input(shape=input_shape),
+        keras.layers.Conv2D(64, kernel_size=(3, 3), activation="relu"),
+        keras.layers.Conv2D(64, kernel_size=(3, 3), activation="relu"),
+        keras.layers.MaxPooling2D(pool_size=(2, 2)),
+        keras.layers.Conv2D(128, kernel_size=(3, 3), activation="relu"),
+        keras.layers.Conv2D(128, kernel_size=(3, 3), activation="relu"),
+        keras.layers.GlobalAveragePooling2D(),
+        keras.layers.Dropout(0.5),
+        keras.layers.Dense(num_classes, activation="softmax"),
+    ]
+)
+# Output model summary
+model.summary()
