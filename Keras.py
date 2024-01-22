@@ -43,15 +43,16 @@ input_shape = (28, 28, 1)
 
 model = keras.Sequential(
     [
-        keras.layers.Input(shape=input_shape),
+        keras.layers.Input(shape=input_shape), # class InputLayer: Layer to be used as an entry point into a Network (a graph of layers).
+                                               # class InputSpec: Specifies the rank, dtype and shape of every input to a layer.
+        keras.layers.Conv2D(64, kernel_size=(3, 3), activation="relu"),    # class Conv2D: 2D convolution layer (e.g. spatial convolution over images).
         keras.layers.Conv2D(64, kernel_size=(3, 3), activation="relu"),
-        keras.layers.Conv2D(64, kernel_size=(3, 3), activation="relu"),
-        keras.layers.MaxPooling2D(pool_size=(2, 2)),
+        keras.layers.MaxPooling2D(pool_size=(2, 2)),    # class MaxPooling2D: Max pooling operation for 2D spatial data.
         keras.layers.Conv2D(128, kernel_size=(3, 3), activation="relu"),
         keras.layers.Conv2D(128, kernel_size=(3, 3), activation="relu"),
-        keras.layers.GlobalAveragePooling2D(),
-        keras.layers.Dropout(0.5),
-        keras.layers.Dense(num_classes, activation="softmax"),
+        keras.layers.GlobalAveragePooling2D(),    # class GlobalAveragePooling2D: Global average pooling operation for spatial data. 
+        keras.layers.Dropout(0.5),    # class Dropout: Applies Dropout to the input.
+        keras.layers.Dense(num_classes, activation="softmax"),    # class Dense: Just your regular densely-connected NN layer.
     ]
 )
 # Output model summary
