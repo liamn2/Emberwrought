@@ -1,4 +1,4 @@
-# 21/01/2024: Looking a tsome of the features of the Keras library. 
+# 21/01/2024: Looking at some of the features of the Keras library. 
 
 # Backend for using Kears library will be Google JAX. Below are a list of it's 4 main functions:
 # grad: automatic differentiation
