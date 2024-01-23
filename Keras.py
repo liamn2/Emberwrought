@@ -67,3 +67,23 @@ model.compile(
         keras.metrics.SparseCategoricalAccuracy(name="acc"),
     ],
 )
+
+# Training and evaluating the model
+
+batch_size = 128
+epochs = 20
+
+callbacks = [
+    keras.callbacks.ModelCheckpoint(filepath="model_at_epoch_{epoch}.keras"),
+    keras.callbacks.EarlyStopping(monitor="val_loss", patience=2),
+]
+
+model.fit(
+    x_train,
+    y_train,
+    batch_size=batch_size,
+    epochs=epochs,
+    validation_split=0.15, # 15% validation split
+    callbacks=callbacks,
+)
+score = model.evaluate(x_test, y_test, verbose=0)
