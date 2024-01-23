@@ -57,3 +57,13 @@ model = keras.Sequential(
 )
 # Output model summary
 model.summary()
+
+# Compiling model using compile() method
+
+model.compile(
+    loss=keras.losses.SparseCategoricalCrossentropy(),    # Computes the crossentropy loss between the labels and predictions. See Information Theory definition. 
+    optimizer=keras.optimizers.Adam(learning_rate=1e-3),
+    metrics=[
+        keras.metrics.SparseCategoricalAccuracy(name="acc"),
+    ],
+)
