@@ -87,3 +87,7 @@ model.fit(
     callbacks=callbacks,
 )
 score = model.evaluate(x_test, y_test, verbose=0)
+
+model.save("final_model.keras")                        # Save model
+model = keras.saving.load_model("final_model.keras")   # Load model
+predictions = model.predict(x_test)                    # Query model predictions
