@@ -6,5 +6,5 @@ Various code for personal progress.
 <b>23/01/2024 (Tuesday)</b>: Compiling model in Keras.  
 <b>24/01/2024 (Wednesday)</b>: Adding final pieces to model for saving.  
 <b>26/01/2024 (Friday)</b>: Created webscraper in Beautiful Soup 4. Saved script as WebScraper.py.  
-<b>31/01/2024 (Wednesday)</b>: Reviewing WebScraper.py and adding features.
+<b>31/01/2024 (Wednesday)</b>: Reviewing WebScraper.py and adding features. Created requests.py to study the requests library for HTML in Python.
 
