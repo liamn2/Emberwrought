@@ -18,4 +18,6 @@ bs.Doctype()                 # Document Type Declaration at beginning of XML fil
 bs.CData()                   # Pulls CData from XML. 
 bs.ProcessingInstruction()   # Represents contents of XML processing instruction.
 
+# Note: <span> for content. 
+
 
