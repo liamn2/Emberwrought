@@ -9,4 +9,5 @@ Various code for personal progress.
 <b>31/01/2024 (Wednesday)</b>: Reviewing WebScraper.py and adding features. Created requests.py to study the requests library for HTML in Python.
 <b>03/02/2024 (Saturday)</b>: Further work on Webscraper.py. Added json-candlestick.py.  
 <b>04/02/2024 (Sunday)</b>: Will work more on improving Webscraper.py.  
-<b>05/02/2024 (Monday)</b>: Added note to Webscraper.py.
+<b>05/02/2024 (Monday)</b>: Added note to Webscraper.py.  
+<b>06/02/2024 (Tuesday)</b>: Will try another NN type in Keras. 
