@@ -91,3 +91,17 @@ score = model.evaluate(x_test, y_test, verbose=0)
 model.save("final_model.keras")                        # Save model
 model = keras.saving.load_model("final_model.keras")   # Load model
 predictions = model.predict(x_test)                    # Query model predictions
+
+# Will now use Keras, subclassing the model class as oppossed to using the sequential class. 
+
+class MyModel(keras.Model):
+    def __init__(self):
+        super().__init__()
+        self.dense1 = keras.layers.Dense(32, activation="relu")
+        self.dense2 = keras.layers.Dense(5, activation="softmax")
+
+    def call(self, inputs):
+        x = self.dense1(inputs)
+        return self.dense2(x)
+
+model = MyModel()
