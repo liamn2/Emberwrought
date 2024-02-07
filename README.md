@@ -10,4 +10,5 @@ Various code for personal progress.
 <b>03/02/2024 (Saturday)</b>: Further work on Webscraper.py. Added json-candlestick.py.  
 <b>04/02/2024 (Sunday)</b>: Will work more on improving Webscraper.py.  
 <b>05/02/2024 (Monday)</b>: Added note to Webscraper.py.  
-<b>06/02/2024 (Tuesday)</b>: Will try another NN type in Keras. 
+<b>06/02/2024 (Tuesday)</b>: Will try another NN type in Keras.  
+<b>07/02/2024 (Wednesday)</b>: Reviewing web scraper. 
