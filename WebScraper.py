@@ -20,4 +20,9 @@ bs.ProcessingInstruction()   # Represents contents of XML processing instruction
 
 # Note: <span> for content. 
 
+# Determining tag type by calling type() method.
+soup = BeautifulSoup('<b class="boldest">Extremely bold</b>', 'html.parser')
+tag = soup.b
+type(tag)
+
 
