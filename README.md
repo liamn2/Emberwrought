@@ -14,4 +14,5 @@ Various code for personal progress.
 <b>07/02/2024 (Wednesday)</b>: Reviewing web scraper.  
 <b>09/02/2024 (Friday)</b>: Studying candlestick graph generator.  
 <b>10/02/2024 (Saturday)</b>: Reviewed Keras NN.  
-<b>11/02/2024 (Sunday)</b>: Reviewed requests.py and added features. 
+<b>11/02/2024 (Sunday)</b>: Reviewed requests.py and added features.   
+<b>15/02/2024 (Thursday)</b>: Functionality for Keras CNN tested on local machine.
