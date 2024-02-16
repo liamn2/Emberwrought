@@ -16,3 +16,4 @@ Various code for personal progress.
 <b>10/02/2024 (Saturday)</b>: Reviewed Keras NN.  
 <b>11/02/2024 (Sunday)</b>: Reviewed requests.py and added features.   
 <b>15/02/2024 (Thursday)</b>: Functionality for Keras CNN tested on local machine.
+<b>16/02/2024 (Friday)</b>: Reviewed repository for quality verification.
