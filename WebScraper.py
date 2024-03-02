@@ -1,4 +1,4 @@
-import requests 
+import requests
 from bs4 import BeautifulSoup as bs 
 
 r = requests.get('Enter Website')      # Load webpage 
