@@ -17,5 +17,6 @@ Various code for personal progress.
 <b>11/02/2024 (Sunday)</b>: Reviewed requests.py and added features.   
 <b>15/02/2024 (Thursday)</b>: Functionality for Keras CNN tested on local machine.  
 <b>16/02/2024 (Friday)</b>: Reviewed repository for quality verification.
-<b>27/02/2024 (Tuesday)</b>: Added ML_Model.py, script for creating machine learning model from housing data. 
-<b>04/03/2024 (Monday)</b>: Edited requests.py. Will add some of the LLM work I'm doing soon. 
+<b>27/02/2024 (Tuesday)</b>: Added ML_Model.py, script for creating machine learning model from housing data.  
+<b>04/03/2024 (Monday)</b>: Edited requests.py. Will add some of the LLM work I'm doing soon.  
+<b>05/03/2023 (Tuesday)</b>: Created LLM-Access.py. Script to connect to models on Hugging Face. 
