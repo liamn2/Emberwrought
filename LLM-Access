@@ -12,4 +12,4 @@ from transformers import AutoTokenizer, AutoModelForCausalLM, pipeline, AutoMode
 access_token = "API_KEY"
 model_id = AutoModel.from_pretrained("teknium/OpenHermes-2.5-Mistral-7B", token=access_token)
 tokenizer = AutoTokenizer.from_pretrained(model_id, legacy=False)
-model = AutoModelForSeq2SeqLM.from_pretrained(model_id)
+model = AutoModelForCausalLM.from_pretrained(model_id)
