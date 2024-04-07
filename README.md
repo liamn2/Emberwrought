@@ -20,5 +20,5 @@ Various code for personal progress.
 <b>27/02/2024 (Tuesday)</b>: Added ML_Model.py, script for creating machine learning model from housing data.  
 <b>04/03/2024 (Monday)</b>: Edited requests.py. Will add some of the LLM work I'm doing soon.  
 <b>05/03/2023 (Tuesday)</b>: Created LLM-Access.py. Script to connect to models on Hugging Face.  
-<b>06/03/2024 (Wednesday)</b>: Added more to LLM-Access.py.
-<b>07/04/2024 (Sunday)</b>: Created langchain.py to study the library. 
+<b>06/03/2024 (Wednesday)</b>: Added more to LLM-Access.py.  
+<b>07/04/2024 (Sunday)</b>: Created langchain.py to study the library, specifically in relation to working with Hugging Face LLMs. 
