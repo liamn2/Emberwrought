@@ -23,5 +23,5 @@ Various code for personal progress.
 <b>06/03/2024 (Wednesday)</b>: Added more to LLM-Access.py.  
 <b>07/04/2024 (Sunday)</b>: Created langchain.py to study the library, specifically in relation to working with Hugging Face LLMs.   
 <b>02/08/2024 (Friday)</b>: Created scribs.py to replicate coding challenge answer.   
-<b>03/08/2024 (Saturday)</b>: Updated scribs.py and added note. 
+<b>03/08/2024 (Saturday)</b>: Updated scribs.py and added note. Created cplusplusnoodling.cpp for C++ coding.
 
