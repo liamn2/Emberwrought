@@ -18,3 +18,44 @@ class TreeNode(object):
     ans = []
     dfs(root)
     return ans
+
+class TreeNode(object):
+  def __init__(self, val=0, left=None, right=None):
+    self.val = val
+    self.left = left
+    self.right = right
+
+  def dfs(root):
+    dfs(root.left)
+    dfs(root.right)
+    ans.append(root.val)
+
+    ans = []
+    dfs(root)
+    return ans
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
