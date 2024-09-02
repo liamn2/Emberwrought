@@ -25,4 +25,6 @@ Various code for personal progress.
 <b>02/08/2024 (Friday)</b>: Created scribs.py to replicate coding challenge answer.   
 <b>03/08/2024 (Saturday)</b>: Updated scribs.py and added note. Created cplusplusnoodling.cpp for C++ coding.  
 <b>01/09/2024 (Sunday)</b>: Added Binary Tree Preorder Traversal algorithm to scribs.py.  
+<b>02/09/2024 (Monday)</b>: Added Binary Tree Postorder Traversal yesterday. Rewrote Preorder Traversal today.  
+
 
