@@ -26,5 +26,5 @@ Various code for personal progress.
 <b>03/08/2024 (Saturday)</b>: Updated scribs.py and added note. Created cplusplusnoodling.cpp for C++ coding.  
 <b>01/09/2024 (Sunday)</b>: Added Binary Tree Preorder Traversal algorithm to scribs.py.  
 <b>02/09/2024 (Monday)</b>: Added Binary Tree Postorder Traversal yesterday. Rewrote Preorder Traversal today.  
-
+<b>06/06/2025 (Thursday)</b>: Created snowflakeSetup.py, a Python script for navigating the Snowflake API.
 
