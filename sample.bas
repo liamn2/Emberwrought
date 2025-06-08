@@ -5,5 +5,5 @@
 % FOR				'FOR Statement'
 	% statements													
 	% NEXT
-% DIM Score(5) 'DIM creates enumerated instances of, in this case, Score.'
+% DIM Score(5) 			'DIM creates enumerated instances of, in this case, Score.'
 
