@@ -1,9 +1,9 @@
-% LET variable = expression	REM 'LET Function'
-% IF condition THEN statement	REM IF, THEN statement
-% ELSE IF statement2		REM ELSE IF Statement
-% ELSE statement3		REM ELSE Statement
-% FOR				REM FOR Statement
+% LET variable = expression	'LET Function'
+% IF condition THEN statement	'IF, THEN statement'
+% ELSE IF statement2		'ELSE IF Statement'
+% ELSE statement3		'ELSE Statement'
+% FOR				'FOR Statement'
 	% statements													
 	% NEXT
-% DIM Score(5) REM DIM creates enumerated instances of, in this case, Score.
+% DIM Score(5) 'DIM creates enumerated instances of, in this case, Score.'
 
