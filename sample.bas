@@ -5,5 +5,39 @@
 % FOR				'FOR Statement'
 	% statements													
 	% NEXT
-% DIM Score(5) 			'DIM creates enumerated instances of, in this case, Score.'
+% FOR I= start-number TO stop-number [ STEP = stepsize] 'Here, we have set our index variable I and its parameters.'
+							'STEP is our unit of difference between successive terms'
+							'STEP increment is 1 by default'
+% DIM Score(5) 			'DIM creates enumerated instances of, in this case, Score. Stands for Dimension'
+% () ^ * / + -			'Nummeric Operators'
+% < <= <> = => >		'Relational Operators'
+% AND OR NOT			'Logical Operators'
 
+% 'BASIC Special Variables'
+	% CASE 			'Observation Number'
+	% BOF			'Logical Variable for Beginning of File (BOF)'
+	% EOF			'Logical Variable for End of File (EOF)'
+
+% 'Function form for mathematical expresiions'
+	% FUNCTION(variable1, variable2, ...)
+
+% 'Multiple argument functions'
+	% AVG()			'Arithmetic Mean'
+	% MAX()			'Maximum'
+	% MIN()			'Minimum'
+	% MIS()			'Number of missing variables'
+	% STD()			'Standard Deviation'
+	% SUM()			'Summation'
+
+% 'Single argument functions'
+	% ABS()			'Absolute Value'
+	% ACS()			'Arc Cosine'
+	% ASN()			'Arc Sine'
+	% ATH()			'Arc Hyperbolic Tangent'
+	% ATN()			'Arc Tangent'
+	% COS()			'Cosine'
+	% EXP()			'Exponential'
+	% LOG()			'Natural Logarithm'
+	% SIN()			'Sine'
+	% SQR()			'Square Root'
+	% TAN()			'Tangent'
