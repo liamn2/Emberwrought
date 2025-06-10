@@ -27,5 +27,7 @@ Various code for personal progress.
 <b>01/09/2024 (Sunday)</b>: Added Binary Tree Preorder Traversal algorithm to scribs.py.  
 <b>02/09/2024 (Monday)</b>: Added Binary Tree Postorder Traversal yesterday. Rewrote Preorder Traversal today.  
 <b>06/06/2025 (Friday)</b>: Created snowflakeSetup.py, a Python script for navigating the Snowflake API.  
-<b>08/06/2025 (Sunday)</b>: Created sample.bas, a file for practicing BASIC.
+<b>08/06/2025 (Sunday)</b>: Created sample.bas, a file for practicing BASIC.  
+<b>10/06/2025 (Tuesday)</b>: Added notes in sample.bas. Covered operators, special functions, multi/single variable mathematical functions.  
+
 
