@@ -11,6 +11,7 @@ snowflake.core.table()		# Access tables
 snowflake.core.task()		# Access tasks
 snowflake.core.task.dagv1()	# Access higher level task for better DAG
 snowflake.core.compute_pool()	# Manage compute pools in Snowpark Container
-				  Services (SCS)
+				# Services (SCS)
 snowflake.core.image_repository	# Manage image repositories in SCS
-snowflakek.core.service() 	# Manage services in SCS
+snowflake.core.service() 	# Manage services in SCS
+
