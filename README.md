@@ -28,7 +28,7 @@ Various code for personal progress.
 <b>02/09/2024 (Monday)</b>: Added Binary Tree Postorder Traversal yesterday. Rewrote Preorder Traversal today.  
 <b>06/06/2025 (Friday)</b>: Created snowflakeSetup.py, a Python script for navigating the Snowflake API.  
 <b>08/06/2025 (Sunday)</b>: Created sample.bas, a file for practicing BASIC.  
-<b>10/06/2025 (Tuesday)</b>: Added notes in sample.bas. Covered operators, special functions, multi/single variable mathematical functions. Created hello.rs for Rust programming.  
+<b>10/06/2025 (Tuesday)</b>: Added notes in sample.bas. Covered operators, special functions, multi/single variable mathematical functions. Created hello.rs for Rust programming. Created COBOL.cob for testing COBOL. 
 <b>11/06/2025 (Wednesday)</b>: Reviewed and corrected errors in snowflakeSetup.py. Added Collatz algorithm to hello.rs.  
 <b>12/06/2025 (Thursday)</b>: Added Collatz algorithm in cplusplusnoodling.cpp. Added probability functions and syntax to sample.bas. 
 
