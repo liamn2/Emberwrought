@@ -41,3 +41,35 @@
 	% SIN()			'Sine'
 	% SQR()			'Square Root'
 	% TAN()			'Tangent'
+
+% 'Distribution Type Letters'
+% 'First letter identifies the distribution.
+	% RN	'Random Number'
+	% CF	'Cumulative'
+	% DF	'Density'
+	% IF	'Inverse'
+% 'Probability Distributions'
+% 'First letter identifies the distribution. Remain letters define function: RN (Random Number), CF 'Cumulative''
+% 'DF (Density), IF (Inverse)'
+	% B	'Beta'
+	% N	'Binomial'
+	% X	'Chi-square'
+	% E	'Exponential'
+	% F	'F'
+	% G	'Gamma'
+	% L	'Logistic'
+	% Z	'Normal (Standard)'
+	% P	'Poisson'
+	% S	'Studentized'
+	% T	't'
+	% U	'Uniform'
+	% W	'Weibull'
+
+% 'The following code generates 10 random draws from a chi-square variable with 35 degrees of freedom'
+% DIM CHISQ(10)
+	% FOR I= 1 TO 10
+	% LET CHISQ(I)=XRN(35)
+	% NEXT
+
+% 'Missing values are output as a single dot '.''
+
