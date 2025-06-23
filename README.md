@@ -33,7 +33,7 @@ Various code for personal progress.
 <b>12/06/2025 (Thursday)</b>: Added Collatz algorithm in cplusplusnoodling.cpp. Added probability functions and syntax to sample.bas.  
 <b>13/06/2025 (Friday)</b>: Added the minimum COBOL program to COBOL.cob.  
 <b>20/06/2025 (Friday)</b>: Added list of macros in std crate. Added list of Rust keywords.  
-<b>24/06/2025 (Monday)</b>: Added code on primitives and structures in hello.rs.
+<b>24/06/2025 (Monday)</b>: Added code on primitives and structures in hello.rs. Added structures.rd to practice structures. 
 
 
 
