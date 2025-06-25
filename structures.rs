@@ -10,5 +10,11 @@ struct Point {  //Co-ordinates struct.
 
 struct Unit; //Placeholder struct for traits with no data. 
 
-struct Pair_or_Tuple(f32, i32);
+struct Pair_or_Tuple(f32, i32)
+
+struct sandwichFilling {
+  meat: String;
+  sauce: String;
+  butter: bool,
+}
 
