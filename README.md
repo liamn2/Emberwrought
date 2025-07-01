@@ -35,7 +35,8 @@ Various code for personal progress.
 <b>20/06/2025 (Friday)</b>: Added list of macros in std crate. Added list of Rust keywords.  
 <b>24/06/2025 (Tuesday)</b>: Added code on primitives and structures in hello.rs. Added structures.rd to practice structures.  
 <b>25/06/2025 (Wednesday)</b>: Created new struct in structures.rs.  
-<b>26/06/2025 (Thursday)</b>: Updated structures.rs with basic use cases for data analysis and added some notes on rustlearn, a crate for machine learning. 
+<b>26/06/2025 (Thursday)</b>: Updated structures.rs with basic use cases for data analysis and added some notes on rustlearn, a crate for machine learning.  
+<b>01/07/2025 (Tuesday)</b>: Created functions.rs to practice defining and calling functions in Rust. 
 
 
 
