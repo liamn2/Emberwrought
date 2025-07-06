@@ -28,3 +28,15 @@ int main() {
     std::cout << "The Collatz sequence for " << start_number << " takes " << steps << " steps to reach 1." << std::endl;
     return 0;
 }
+
+// Sum() function.
+int sum(int n, int m) {
+  int result = m + n;
+  printf("%d\n", result);
+  return result;
+}
+
+int main() {
+  sum(2, 3);
+  return 0;
+}
