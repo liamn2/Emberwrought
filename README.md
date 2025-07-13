@@ -38,7 +38,7 @@ Various code for personal progress.
 <b>26/06/2025 (Thursday)</b>: Updated structures.rs with basic use cases for data analysis and added some notes on rustlearn, a crate for machine learning.  
 <b>01/07/2025 (Tuesday)</b>: Created functions.rs to practice defining and calling functions in Rust.  
 <b>06/07/2025 (Sunday)</b>: Added a sum algorithm to cplusplusnoodling.cpp.  
-<b>13/07.2025 (Sunday)</b>: Practiced if statements and unsing 'continue' keywird in hello.rs. 
+<b>13/07/2025 (Sunday)</b>: Practiced if statements and unsing 'continue' keywird in hello.rs. 
 
 
 
