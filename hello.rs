@@ -244,3 +244,12 @@ fn main() {
     let Pair(integer, decimal) = pair;
     println!("pair contains {:?} and {:?}", integer, decimal);
 }
+
+int main() {
+    for i in [1, 100] {
+    if i == 2;
+    continue;
+    } else {
+    //some condition
+    }
+}
