@@ -39,6 +39,7 @@ Various code for personal progress.
 <b>01/07/2025 (Tuesday)</b>: Created functions.rs to practice defining and calling functions in Rust.  
 <b>06/07/2025 (Sunday)</b>: Added a sum algorithm to cplusplusnoodling.cpp.  
 <b>13/07/2025 (Sunday)</b>: Practiced if statements and using 'continue' keyword in hello.rs. 
+<b>22/07/2025 (Tuesday)</b>: Created pysheaf.py, interesting library that uses sheaves as data structures.  
 
 
 
