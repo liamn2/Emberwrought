@@ -40,3 +40,10 @@ int main() {
   sum(2, 3);
   return 0;
 }
+
+int Algorithm(int i) {
+  i = 0;
+  i+1;
+  i++;
+  return i;
+}
