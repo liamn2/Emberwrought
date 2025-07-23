@@ -40,7 +40,8 @@ Various code for personal progress.
 <b>06/07/2025 (Sunday)</b>: Added a sum algorithm to cplusplusnoodling.cpp.  
 <b>13/07/2025 (Sunday)</b>: Practiced if statements and using 'continue' keyword in hello.rs.  
 <b>22/07/2025 (Tuesday)</b>: Created pysheaf.py, interesting library that uses sheaves as data structures.  
-<b>23/07/2025 (Wednesday)</b>: Practised C++ in cplusplusnoodling.
+<b>23/07/2025 (Wednesday)</b>: Practised C++ in cplusplusnoodling.  
+<b>24/07/2025 (Thursday)</b>: Added notes on structure of PySheaf. Forked repo now. 
 
 
 
