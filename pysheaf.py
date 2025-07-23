@@ -14,3 +14,14 @@ def BuildConstantSheaf(G, dataDimension=1):
 #NetworkX is a Python package for the creation, manipulation, and study of the structure, dynamics, and functions of complex networks.
 #Nodes can be "anything" (e.g., text, images, XML records)
 import networkx as nx
+"""Sheaves are built using a DiGraph from netwrokx"""   
+""" 
+   This class serves to model sheafs.
+   Users will build sheafs with: 
+   AddCell
+   AddCoface
+
+   Then evaluate sheafs with 
+   FuseAssignment 
+   ComputeConsistencyRadius
+   """
