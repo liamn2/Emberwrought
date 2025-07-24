@@ -1,6 +1,7 @@
 fn main() {                            //Call functions within main function.
     sum();
     subtraction();
+    printy_mac_print_print("Sandwiches".to_string());
 }
 
 fn sum() {
@@ -15,4 +16,8 @@ fn subtraction() {
     let num2: i32 = 5;
     let result = num1 - num2;
     println!("The result of subtraction is {}", result);
-}
+    }
+
+fn printy_mac_print_print(input: String) {
+    println!("{}", input);
+    }
