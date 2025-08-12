@@ -123,3 +123,32 @@ fn main() {
 //decision trees using the CART algorithm,
 //random forests using CART decision trees, and
 //factorization machines.
+
+////Basic Objects
+Affine schemes
+Varieties (algebraic varieties)
+Polynomial rings and their ideals
+Affine algebraic sets
+Projective schemes
+Morphisms of schemes
+Intermediate Objects
+Sheaves (of modules, functions)
+Line bundles and vector bundles (locally free sheaves)
+Divisors and linear systems
+Cohomology groups (sheaf cohomology)
+Blow-ups and birational maps
+Chow groups and intersection theory
+Advanced Objects
+Picard schemes and Albanese varieties
+Moduli spaces (e.g., moduli of curves, vector bundles)
+Derived schemes and derived stacks
+Stacks (Deligne-Mumford stacks, Artin stacks)
+Hom schemes and Hilbert schemes
+Complex analytic spaces (generalizations involving complex structures)
+Highly Sophisticated / Modern Objects
+Derived algebraic geometry objects (derived schemes, derived stacks)
+Higher stacks and ∞\infty∞-categories
+Spectral schemes and spectral algebraic geometry
+Motivic cohomology and motives
+Noncommutative algebraic geometry objects (noncommutative schemes, dg-categories)
+Brane stacks and derived categories in string theory///
