@@ -1,27 +1,37 @@
-import pysheaf as ps
-# Constant sheaf for a topological space A has all of its stalks leading back to A
-def BuildConstantSheaf(G, dataDimension=1):
-    #Construct a constant sheaf on a graph G with a given dataDimension
-    shf=ps.Sheaf()
-    # Add cells for each node in the graph
-    for node in G.nodes():
-        shf.AddCell(node, ps.Cell('vector',dataDimension=dataDimension))
-    # Add cofaces for each edge in the graph
-    for edge in G.edges():
-        shf.AddCoface(edge[0],edge[1],ps.Coface('vector','vector',dataTools.LinearMorphism(np.eye(dataDimension))))
-    return shf # BuildConstantSheaf
+class Cell:
+    def __init__(self,dataTagType,compareAssignmentsMethod=None, serializeAssignmentMethod=None, deSerializeAssignmentMethod=None, dataDimension=1, optimizationCell = False, extendFromThisCell=True):
+          self.mDataDimension = dataDimension
+          self.mDataAssignmentPresent = False
+          self.mDataAssignment = 0
+          self.mExtendedAssignments = {}
+          self.mDataTagType = dataTagType
+          self.mOptimizationCell = optimizationCell
+          self.mExtendFromThisCell = extendFromThisCell
+          self.mBounds = [(None,None)] * self.mDataDimension
+          self.mExtendedAssignmentConsistancyWeight = None
+          if compareAssignmentsMethod==None:
+             self.Compare = self.DefaultCompareAssignments
+          else:
+             self.Compare = compareAssignmentsMethod
+          if serializeAssignmentMethod==None:
+             self.mSerialize = self.DefaultSerialize
+          else:
+             self.mSerialize = serializeAssignmentMethod
+          if deSerializeAssignmentMethod==None:
+             self.mDeserialize = self.DefaultDeserialize
+          else:
+             self.mDeserialize = deSerializeAssignmentMethod
+          return
+    def SetDataAssignment(self, dataAssignment):
+      if self.mDataTagType == dataAssignment.mValueType:
+         self.mDataAssignmentPresent = True
+         self.mDataAssignment = dataAssignment
+      else:
+         print("Cell::SetDataAssignment: Error, DataAssignment is of Incorrect type name. Expected:",self.mDataTagType,"Actual:",dataAssignment.mValueType)
+      return # SetDataAssignment
 
-#NetworkX is a Python package for the creation, manipulation, and study of the structure, dynamics, and functions of complex networks.
-#Nodes can be "anything" (e.g., text, images, XML records)
-import networkx as nx
-"""Sheaves are built using a DiGraph from netwrokx"""   
-""" 
-   This class serves to model sheafs.
-   Users will build sheafs with: 
-   AddCell
-   AddCoface
+   def SetCompareMethod(self, methodToSet):
+      self.Compare = methodToSet
+      return
 
-   Then evaluate sheafs with 
-   FuseAssignment 
-   ComputeConsistencyRadius
-   """
+       
