@@ -42,7 +42,9 @@ Various code for personal progress.
 <b>22/07/2025 (Tuesday)</b>: Created pysheaf.py, interesting library that uses sheaves as data structures.  
 <b>23/07/2025 (Wednesday)</b>: Practised C++ in cplusplusnoodling.  
 <b>24/07/2025 (Thursday)</b>: Added notes on structure of PySheaf. Forked repo now.  
-<b>25/07/2025 (Friday)</b>: Practised functions in structures.rs. Need to find a project. 
+<b>25/07/2025 (Friday)</b>: Practised functions in structures.rs. Need to find a project.  
+<b>30/09/2025 (Tuesday)</b>: Added zeta.py. Calculates values of the Riemann Zeta function.  
+
 
 
 
