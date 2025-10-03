@@ -44,7 +44,7 @@ Various code for personal progress.
 <b>24/07/2025 (Thursday)</b>: Added notes on structure of PySheaf. Forked repo now.  
 <b>25/07/2025 (Friday)</b>: Practised functions in structures.rs. Need to find a project.  
 <b>30/09/2025 (Tuesday)</b>: Added zeta.py. Calculates values of the Riemann Zeta function.  
-
+<b>03/10/2025 (Friday)</b>: Created contour_graph.py. Contour graph for grid plot.  
 
 
 
